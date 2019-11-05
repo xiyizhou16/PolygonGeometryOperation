@@ -6,7 +6,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 
-// 0: 平移 —— 1: 绘制多边形
 class BasicFrame extends JFrame implements ActionListener {
     static final int panelWidth = 900, panelHeight = 500;
     static final int statusMove = 0, statusScale = 1, statusRotate = 2,
